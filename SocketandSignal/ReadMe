@@ -1,0 +1,12 @@
+To Run Server: ./server numberfrom9000
+To Run Client: ./Client 127.0.0.1 serverportnumber
+
+
+
+Issue:
+Sometimes all the process in the list arent showed.List command has to be run again to bring them from server.
+
+
+To see list on server uncomment line 451
+
+Please See the ScreenShoots Attached
