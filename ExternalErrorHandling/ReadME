@@ -1,0 +1,2 @@
+Version 3 is safer because SA_NODEFER make a call unlblocking instantaneously.So no signals are lost.
+In sigprocmask if we get multiple signals before unblocking they dont goto pending, they are blocked which means they are lost.
